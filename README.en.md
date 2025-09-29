@@ -1,8 +1,8 @@
-# deepin-unioncode
+# deepin-ide
 
 [![zh](https://img.shields.io/badge/lang-zh-red.svg)](./README.md)
 
-deepin-unioncode is a lightweight integrated development environment, featured with multilingual and cross platform compatibility.
+deepin-ide is a lightweight integrated development environment, featured with multilingual and cross platform compatibility.
 
 ## Build dependencies
 
@@ -50,9 +50,9 @@ _The **dev** branch is current development branch, build dependencies may change
 1. Make sure you have installed all dependencies.
 
 ``` shell
-$ git clone https://github.com/linuxdeepin/deepin-unioncode.git
-(gitee: $ git clone https://gitee.com/deepin-community/deepin-unioncode.git)
-$ cd deepin-unioncode
+$ git clone https://github.com/linuxdeepin/deepin-ide.git
+(gitee: $ git clone https://gitee.com/deepin-community/deepin-ide.git)
+$ cd deepin-ide
 $ sudo apt build-dep ./
 ```
 
@@ -69,11 +69,11 @@ $ cmake --build build
 $ sudo cmake --build build --target install
 ```
 
-The executable binary file could be found at `/usr/bin/deepin-unioncode`
+The executable binary file could be found at `/usr/bin/deepin-ide`
 
 ## Usage
 
-Execute `deepin-unioncode`
+Execute `deepin-ide`
 
 *Attention: After the installation of deepin-unicode, some features require the installation of dependency packages before they can be used normally.* 
 
@@ -97,7 +97,6 @@ Execute `deepin-unioncode`
 ## Getting help
 
  - [Official Forum](https://bbs.deepin.org/)
- - [User guide](https://wiki.deepin.org/zh/05_HOW-TO/02_%E5%BC%80%E5%8F%91%E7%9B%B8%E5%85%B3/deepin-unioncode)
  - [Extended guide](./docs/extended-guide.md)
  - [Developer Center](https://github.com/linuxdeepin/developer-center)
  - [Gitter](https://gitter.im/orgs/linuxdeepin/rooms)
@@ -113,7 +112,7 @@ We encourage you to report issues and contribute changes
 
 ## License
 
-deepin-unioncode is licensed under [GPL-3.0-or-later](LICENSE)
+deepin-ide is licensed under [GPL-3.0-or-later](LICENSE)
 
 ## 3rdparty support
 
