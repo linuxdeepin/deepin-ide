@@ -1,8 +1,8 @@
-# deepin-unioncode
+# deepin-ide
 
 [![en](https://img.shields.io/badge/lang-en-red.svg)](./README.en.md)
 
-deepin-unioncode 是一款支持多语言、跨平台兼容特性的轻量级集成开发环境。
+deepin-ide 是一款支持多语言、跨平台兼容特性的轻量级集成开发环境。
 
 ## 构建依赖
 
@@ -51,9 +51,9 @@ _当前的开发分支为**dev**，编译依赖可能会在没有更新本说明
 
 
 ``` shell
-$ git clone https://github.com/linuxdeepin/deepin-unioncode.git 
-(gitee: $ git clone https://gitee.com/deepin-community/deepin-unioncode.git)
-$ cd deepin-unioncode
+$ git clone https://github.com/linuxdeepin/deepin-ide.git 
+(gitee: $ git clone https://gitee.com/deepin-community/deepin-ide.git)
+$ cd deepin-ide
 $ sudo apt build-dep ./
 ```
 
@@ -70,13 +70,13 @@ $ cmake --build build
 $ sudo cmake --build build --target install
 ```
 
-可执行程序为 `/usr/bin/deepin-unioncode`
+可执行程序为 `/usr/bin/deepin-ide`
 
 ## 使用
 
-启动栏执行 `deepin-unioncode`
+启动栏执行 `deepin-ide`
 
-*注意：deepin-unioncode安装后，部分功能需要安装依赖包后才能正常使用。*
+*注意：deepin-ide安装后，部分功能需要安装依赖包后才能正常使用。*
 
 ## 支持的语言工程
 
@@ -98,7 +98,6 @@ $ sudo cmake --build build --target install
 ## 帮助
 
 - [官方论坛](https://bbs.deepin.org/) 
-- [用户使用手册](https://wiki.deepin.org/zh/05_HOW-TO/02_%E5%BC%80%E5%8F%91%E7%9B%B8%E5%85%B3/deepin-unioncode)
 - [扩展指南](./docs/extended-guide.md)
 - [开发者中心](https://github.com/linuxdeepin/developer-center) 
 - [Gitter](https://gitter.im/orgs/linuxdeepin/rooms)
@@ -114,7 +113,7 @@ $ sudo cmake --build build --target install
 
 ## 开源许可证
 
-deepin-unioncode 在 [GPL-3.0-or-later](LICENSE)下发布。
+deepin-ide 在 [GPL-3.0-or-later](LICENSE)下发布。
 
 ## 三方库支持
 
