@@ -2,8 +2,6 @@ project(duc-common)
 
 include(${CMAKE_SOURCE_DIR}/3rdparty/unioncode-jsonrpccpp.cmake)
 
-install(FILES ${CMAKE_SOURCE_DIR}/src/common/resource/icons/ide.svg DESTINATION ${CMAKE_INSTALL_PREFIX}/share/icons/hicolor/scalable/apps/)
-
 configure_file(util/config.h.in config.h)
 
 set(CMAKE_CXX_STANDARD 17)
