@@ -1,3 +1,9 @@
+deepin-unioncode (1.4.23) unstable; urgency=medium
+
+  * chore: update IDE icon design and installation configuration
+
+ -- Liu Zhangjian <liuzhangjian@uniontech.com>  Fri, 27 Feb 2026 14:38:38 +0800
+
 deepin-unioncode (1.4.22) unstable; urgency=medium
 
   * fix: exclude qt6-webengine-dev on mips architectures
